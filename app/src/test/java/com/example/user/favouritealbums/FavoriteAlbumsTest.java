@@ -15,14 +15,13 @@ public class FavoriteAlbumsTest {
 
     @Test
     public void getList() {
-        assertEquals(0, albums.getList().size());
+        assertEquals(2, albums.getList().size());
     }
 
     @Test
     public void addAlbum() {
-        albums.addAlbum("Ben Folds", "So There", 2015, 63);
-        albums.addAlbum("Courtney Barnett", "Tell Me How You Really Feel", 2018, 9);
-        assertEquals(2, albums.getList().size());
+        albums.addAlbum("Prince", "Purple Rain", 1983, 1);
+        assertEquals(3, albums.getList().size());
 
     }
 }
