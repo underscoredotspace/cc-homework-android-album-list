@@ -1,3 +1,5 @@
+package com.example.user.favouritealbums;
+
 public class Album {
     private String artist;
     private String title;

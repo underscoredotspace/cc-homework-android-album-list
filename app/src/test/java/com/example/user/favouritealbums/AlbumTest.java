@@ -1,3 +1,7 @@
+package com.example.user.favouritealbums;
+
+import com.example.user.favouritealbums.Album;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,7 +11,7 @@ public class AlbumTest {
     private Album album;
 
     @Before
-    public void setUp() throws Exception {
+    public void before() {
         album = new Album("Ben Folds", "So There", 2015, 63);
     }
 
